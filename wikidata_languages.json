@@ -1,0 +1,1716 @@
+{
+  "head" : {
+    "vars" : [ "langCode", "langLabel", "speakers", "scriptCode" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "en"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "English"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "753359540"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "es"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spanish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "485000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Arab"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ar"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arabic"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "315421300"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Arab"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ar"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arabic"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "295000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fr"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "French"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "208157220"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "id"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indonesian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "198996550"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Cyrl"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ru"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "154000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Guru"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "pa"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Punjabi"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "125000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fr"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "French"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "77200000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ms"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malay"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "77000000"
+      }
+    }, {
+      "langCode" : {
+        "type" : "literal",
+        "value" : "de"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "German"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "76540740"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "jv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Javanese"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "68300000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Java"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "jv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Javanese"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "68300000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Kawi"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "jv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Javanese"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "68300000"
+      }
+    }, {
+      "langCode" : {
+        "type" : "literal",
+        "value" : "de"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "German"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "58452300"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Arab"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fa"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Persian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "45000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "id"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indonesian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "43627550"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Orya"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "or"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Odia"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "34500000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "su"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sundanese"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "32400000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Sund"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "su"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sundanese"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "32400000"
+      }
+    }, {
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ig"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Igbo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "27000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "om"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oromo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "24000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Ethi"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "om"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oromo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "24000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Cyrl"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ku"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kurdish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ku"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kurdish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Thai"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "th"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thai"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "20700000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Khmr"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "km"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khmer"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Grek"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "el"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Modern Greek"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "15000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ts"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsonga"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "hu"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hungarian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Hung"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "hu"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hungarian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "zu"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zulu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12100000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ht"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haitian Creole"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Hebr"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "he"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hebrew"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9303950"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9244250"
+      }
+    }, {
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sr"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Serbian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Cyrl"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "bg"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bulgarian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9000000"
+      }
+    }, {
+      "langCode" : {
+        "type" : "literal",
+        "value" : "be"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belarusian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Ethi"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ti"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tigrinya"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7507780"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sk"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slovak"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "6000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Ethi"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ti"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tigrinya"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5800000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Laoo"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lo"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lao"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5225552"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "no"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Norwegian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5200000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ca"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Catalan"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4873396"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sg"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sango"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "tn"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tswana"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4500000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ts"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsonga"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4009000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lt"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lithuanian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "nb"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bokmål"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ts"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsonga"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3400000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3118000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "gl"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Galician"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2400000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ss"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swazi"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2034200"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Cyrl"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "mk"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Yiii"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ii"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nuosu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "nd"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Ndebele"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1572800"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Cyrl"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ba"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bashkir"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1200000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Arab"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ba"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bashkir"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1200000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "nr"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southern Ndebele"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "640000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "wa"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Walloon"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sg"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sango"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "599000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "sg"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sango"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lb"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourgish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "391200"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "341270"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Deva"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "341270"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "330000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Deva"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "330000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "320000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Deva"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "320000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lb"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourgish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "303000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Tibt"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "dz"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dzongkha"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "237080"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ho"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiri Motu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "180000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Tibt"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "dz"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dzongkha"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "171000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "nv"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navajo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "169369"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Ethi"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ti"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tigrinya"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "152000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "ho"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiri Motu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "120000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lb"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourgish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "79000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fo"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faroese"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "69150"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "se"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Sami"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "25700"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "20000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Deva"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "20000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Deva"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "na"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nauruan"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9300"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Deva"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "fj"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "na"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nauruan"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "la"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latin"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "nn"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nynorsk"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "gn"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guarani"
+      }
+    }, {
+      "scriptCode" : {
+        "type" : "literal",
+        "value" : "Latn"
+      },
+      "langCode" : {
+        "type" : "literal",
+        "value" : "lu"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luba-Katanga"
+      }
+    } ]
+  }
+}

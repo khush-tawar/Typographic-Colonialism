@@ -26,18 +26,6 @@ Typography is not neutral. The availability of fonts across the world's writing 
 
 ---
 
-## Visualizations
-
-The interactive site includes 5 data-driven visualizations:
-
-1. **The Disparity** — Font wheel showing Latin's 1,900 fonts vs everyone else
-2. **The Geography** — World map revealing colonial patterns of font availability  
-3. **The Timeline** — 40-year head start bubble chart
-4. **The Rescue** — Noto's coverage and 47 rescued scripts
-5. **The Variable Divide** — Interactive slider to *experience* typographic inequality
-
----
-
 ## Overview
 
 This dataset powers data visualizations showing how Latin script dominates digital typography while billions of people using other writing systems face severe font poverty. The data reveals:

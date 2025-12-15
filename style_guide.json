@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "name": "Typographic Colonialism Style Guide",
+    "version": "1.0",
+    "description": "WSJ-inspired design system for all visualizations"
+  },
+  "colors": {
+    "background": "#E8E5DA",
+    "backgroundAlt": "#F5F3EE",
+    "backgroundDark": "#D4D0C4",
+    
+    "textPrimary": "#2A2A2A",
+    "textSecondary": "#5A5A5A",
+    "textMuted": "#888888",
+    "textSubtle": "#AAAAAA",
+    
+    "border": "#5A5A5A",
+    "borderLight": "#CCCCCC",
+    "grid": "#CCCCCC",
+    
+    "accent": "#2A9D8F",
+    "accentLight": "#41B3A3",
+    
+    "status": {
+      "dominant": "#2A9D8F",
+      "privileged": "#41B3A3",
+      "struggling": "#E27D60",
+      "neglected": "#C74848",
+      "notoOnly": "#9c27b0",
+      "latin": "#2A9D8F"
+    },
+    
+    "palette": {
+      "primary": ["#C74848", "#E27D60", "#E8A87C", "#F7D08A", "#41B3A3", "#2A9D8F", "#1A7F73", "#659DBD", "#4A7C9B", "#3D5A80"],
+      "secondary": ["#264653", "#287271", "#2A9D8F", "#8AB17D", "#E9C46A", "#F4A261", "#E76F51", "#BC4749", "#A7333F", "#5C374C"]
+    },
+    
+    "chart": {
+      "zonePrivileged": "rgba(42, 157, 143, 0.08)",
+      "zoneStruggling": "rgba(226, 125, 96, 0.08)",
+      "zoneNeglected": "rgba(199, 72, 72, 0.1)"
+    }
+  },
+  
+  "typography": {
+    "fontFamily": "'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif",
+    "h1": { "size": "24px", "weight": "700", "spacing": "2px", "transform": "uppercase" },
+    "h2": { "size": "18px", "weight": "700", "spacing": "3px", "transform": "uppercase" },
+    "h3": { "size": "14px", "weight": "700", "spacing": "1.5px", "transform": "uppercase" },
+    "h4": { "size": "12px", "weight": "600", "spacing": "1px", "transform": "uppercase" },
+    "overline": { "size": "10px", "weight": "700", "spacing": "1px", "transform": "uppercase" },
+    "body": { "size": "13px", "weight": "400", "spacing": "0", "transform": "none" },
+    "caption": { "size": "11px", "weight": "400", "spacing": "0", "transform": "none" },
+    "dataLarge": { "size": "36px", "weight": "700", "spacing": "-1px", "transform": "none" },
+    "label": { "size": "10px", "weight": "500", "spacing": "0.5px", "transform": "uppercase" }
+  },
+  
+  "components": {
+    "infoPanel": {
+      "background": "#F5F3EE",
+      "borderLeft": "3px solid #5A5A5A",
+      "padding": "15px 20px",
+      "borderRadius": "0 4px 4px 0"
+    },
+    "statCard": {
+      "background": "#F5F3EE",
+      "borderLeft": "4px solid",
+      "padding": "20px",
+      "borderRadius": "0 4px 4px 0"
+    },
+    "tooltip": {
+      "background": "rgba(42, 42, 42, 0.95)",
+      "color": "#FFFFFF",
+      "padding": "12px 16px",
+      "borderRadius": "4px",
+      "fontSize": "12px"
+    }
+  },
+  
+  "keyScripts": ["Latn", "Arab", "Hans", "Deva", "Beng", "Cyrl", "Jpan", "Kore", "Thai", "Grek", "Hebr", "Taml"],
+  
+  "dimensions": {
+    "default": { "width": 1200, "height": 800, "margin": { "top": 80, "right": 60, "bottom": 60, "left": 80 } },
+    "compact": { "width": 800, "height": 500, "margin": { "top": 60, "right": 40, "bottom": 50, "left": 60 } }
+  }
+}

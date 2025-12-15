@@ -53,6 +53,22 @@ graphData = fetch("https://raw.githubusercontent.com/khush-tawar/Typographic-Col
   .then(r => r.json())
 
 // ═══════════════════════════════════════════════════════════════════════════════
+// CELL 5: Create Scales
+// ═══════════════════════════════════════════════════════════════════════════════
+scales = {
+  const { width, height, margin } = config.dimensions;
+  const innerWidth = width - margin.left - margin.right;
+  const innerHeight = height - margin.top - margin.bottom;
+  
+  return {
+    // X: Year entered digital age
+    x: d3.scaleLinear()
+      .domain([1980, 2020])
+      .range([0, innerWidth]),
+    
+    // Y: Inequality ratio (log scale for better distribution)
+    y: d3.scaleLog()
+      .domain([0.3, 100])// ═══════════════════════════════════════════════════════════════════════════════
 // CELL 4: Process & Enrich Data
 // ═══════════════════════════════════════════════════════════════════════════════
 processedData = {
@@ -151,23 +167,7 @@ processedData = {
   return { nodes, links, stats };
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
-// CELL 5: Create Scales
-// ═══════════════════════════════════════════════════════════════════════════════
-scales = {
-  const { width, height, margin } = config.dimensions;
-  const innerWidth = width - margin.left - margin.right;
-  const innerHeight = height - margin.top - margin.bottom;
-  
-  return {
-    // X: Year entered digital age
-    x: d3.scaleLinear()
-      .domain([1980, 2020])
-      .range([0, innerWidth]),
-    
-    // Y: Inequality ratio (log scale for better distribution)
-    y: d3.scaleLog()
-      .domain([0.3, 100])
+
       .range([innerHeight, 0])
       .clamp(true),
     

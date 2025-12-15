@@ -231,3 +231,229 @@ speakersVsFonts = {
   
   return data;
 }
+
+// ===========================================
+// CELL 13: Graph Data (Nodes & Edges)
+// ===========================================
+graphData = masterData.graph
+
+// ===========================================
+// CELL 14: Script Network (for Force Graph)
+// ===========================================
+// D3-ready network: scripts as nodes, shared fonts as edges
+scriptNetwork = {
+  const network = masterData.graph.networks.script_network;
+  
+  // Enrich nodes with additional data
+  const enrichedNodes = network.nodes.map(n => ({
+    ...n,
+    // Size by speaker count (log scale)
+    radius: Math.max(4, Math.log10(n.speakers + 1) * 3),
+    // Color by font count
+    fontDensity: n.fontCount / Math.max(1, n.speakers / 1000000),
+  }));
+  
+  return {
+    nodes: enrichedNodes,
+    links: network.links,
+  };
+}
+
+// ===========================================
+// CELL 15: Adjacency Lookup (fast access)
+// ===========================================
+adjacency = masterData.graph.adjacency
+
+// ===========================================
+// CELL 16: Get Fonts for Script
+// ===========================================
+getFontsForScript = (scriptCode) => {
+  return adjacency.script_to_fonts[scriptCode] || [];
+}
+
+// ===========================================
+// CELL 17: Get Script Neighbors (shared fonts)
+// ===========================================
+getScriptNeighbors = (scriptCode) => {
+  return adjacency.script_neighbors[scriptCode] || [];
+}
+
+// ===========================================
+// CELL 18: Edge Lists by Type
+// ===========================================
+edges = masterData.graph.edges
+
+// ===========================================
+// CELL 19: Script Co-occurrence Matrix
+// ===========================================
+coOccurrenceMatrix = {
+  const links = scriptNetwork.links;
+  const nodes = scriptNetwork.nodes;
+  
+  // Create a map for quick lookup
+  const matrix = {};
+  nodes.forEach(n => {
+    matrix[n.code] = {};
+    nodes.forEach(m => {
+      matrix[n.code][m.code] = 0;
+    });
+  });
+  
+  // Fill in shared font counts
+  links.forEach(link => {
+    const source = typeof link.source === 'object' ? link.source.code : link.source;
+    const target = typeof link.target === 'object' ? link.target.code : link.target;
+    matrix[source][target] = link.value;
+    matrix[target][source] = link.value;
+  });
+  
+  return matrix;
+}
+
+// ===========================================
+// CELL 20: Graph Metrics
+// ===========================================
+graphMetrics = masterData.graph.metrics
+
+// ===========================================
+// CELL 21: Digital Age Timeline
+// ===========================================
+digitalTimeline = masterData.digital_timeline
+
+// ===========================================
+// CELL 22: Deep Metrics (italic, mono, noto dependency)
+// ===========================================
+deepMetrics = masterData.deep_metrics
+
+// ===========================================
+// CELL 23: Font Sizes (Bandwidth Barrier)
+// ===========================================
+fontSizes = masterData.font_sizes
+
+// ===========================================
+// CELL 24: Web Usage Data
+// ===========================================
+webUsage = masterData.web_usage
+
+// ===========================================
+// CELL 25: Variable Font Data
+// ===========================================
+variableFonts = masterData.variable_fonts
+
+// ===========================================
+// CELL 26: Quick Wins Summary
+// ===========================================
+quickWinsSummary = masterData.quick_wins_summary
+
+// ===========================================
+// CELL 27: Example Force Graph (D3)
+// ===========================================
+// Paste this for a quick force-directed graph visualization
+forceGraphExample = {
+  const width = 928;
+  const height = 680;
+  
+  const nodes = scriptNetwork.nodes
+    .filter(n => n.fontCount > 0)
+    .map(d => ({...d}));
+  
+  const nodeIds = new Set(nodes.map(n => n.code));
+  
+  const links = scriptNetwork.links
+    .filter(l => nodeIds.has(l.source) && nodeIds.has(l.target))
+    .map(d => ({...d}));
+  
+  // Create color scale by font count
+  const colorScale = d3.scaleSequentialLog(d3.interpolateViridis)
+    .domain([1, d3.max(nodes, d => d.fontCount)]);
+  
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.code).strength(d => Math.min(0.5, d.value / 100)))
+    .force("charge", d3.forceManyBody().strength(-50))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force("collision", d3.forceCollide().radius(d => d.radius + 2));
+  
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, width, height])
+    .attr("style", "max-width: 100%; height: auto; background: #E8E5DA;");
+  
+  // Draw links
+  const link = svg.append("g")
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("stroke", "#999")
+    .attr("stroke-opacity", 0.4)
+    .attr("stroke-width", d => Math.sqrt(d.value) * 0.5);
+  
+  // Draw nodes
+  const node = svg.append("g")
+    .selectAll("circle")
+    .data(nodes)
+    .join("circle")
+    .attr("r", d => d.radius)
+    .attr("fill", d => colorScale(d.fontCount))
+    .attr("stroke", "#fff")
+    .attr("stroke-width", 1)
+    .call(drag(simulation));
+  
+  // Add labels for major scripts
+  const label = svg.append("g")
+    .selectAll("text")
+    .data(nodes.filter(n => n.fontCount > 10 || n.speakers > 100000000))
+    .join("text")
+    .text(d => d.name)
+    .attr("font-size", 9)
+    .attr("font-family", "Helvetica Neue, sans-serif")
+    .attr("fill", "#333")
+    .attr("dx", d => d.radius + 3)
+    .attr("dy", 3);
+  
+  // Tooltip
+  node.append("title")
+    .text(d => `${d.name}\nFonts: ${d.fontCount}\nSpeakers: ${(d.speakers / 1e6).toFixed(1)}M\nConnections: ${d.degree}`);
+  
+  // Tick function
+  simulation.on("tick", () => {
+    link
+      .attr("x1", d => d.source.x)
+      .attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x)
+      .attr("y2", d => d.target.y);
+    
+    node
+      .attr("cx", d => d.x)
+      .attr("cy", d => d.y);
+    
+    label
+      .attr("x", d => d.x)
+      .attr("y", d => d.y);
+  });
+  
+  // Drag behavior
+  function drag(simulation) {
+    function dragstarted(event) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      event.subject.fx = event.subject.x;
+      event.subject.fy = event.subject.y;
+    }
+    
+    function dragged(event) {
+      event.subject.fx = event.x;
+      event.subject.fy = event.y;
+    }
+    
+    function dragended(event) {
+      if (!event.active) simulation.alphaTarget(0);
+      event.subject.fx = null;
+      event.subject.fy = null;
+    }
+    
+    return d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended);
+  }
+  
+  return svg.node();
+}

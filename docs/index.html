@@ -479,19 +479,33 @@
     let worldGeo = null;
     
     async function loadData() {
-      const [dataRes, worldRes] = await Promise.all([
-        fetch(DATA_URL).then(r => r.json()),
-        fetch(WORLD_URL).then(r => r.json())
-      ]);
-      masterData = dataRes;
-      worldGeo = topojson.feature(worldRes, worldRes.objects.countries);
-      
-      // Initialize all visualizations
-      renderFontWheel();
-      renderWorldMap();
-      renderTimeline();
-      renderNotoRidge();
-      renderVariableDivide();
+      try {
+        console.log("Loading data...");
+        const [dataRes, worldRes] = await Promise.all([
+          fetch(DATA_URL).then(r => r.json()),
+          fetch(WORLD_URL).then(r => r.json())
+        ]);
+        masterData = dataRes;
+        worldGeo = topojson.feature(worldRes, worldRes.objects.countries);
+        console.log("Data loaded successfully", { scripts: Object.keys(masterData.scripts || {}).length });
+        
+        // Initialize all visualizations
+        renderFontWheel();
+        console.log("Font wheel rendered");
+        renderWorldMap();
+        console.log("World map rendered");
+        renderTimeline();
+        console.log("Timeline rendered");
+        renderNotoRidge();
+        console.log("Noto ridge rendered");
+        renderVariableDivide();
+        console.log("Variable divide rendered");
+      } catch (error) {
+        console.error("Error loading data:", error);
+        document.body.innerHTML += `<div style="position:fixed;top:0;left:0;right:0;background:#C74848;color:#fff;padding:20px;z-index:9999;">
+          <strong>Error loading visualizations:</strong> ${error.message}
+        </div>`;
+      }
     }
     
     loadData();

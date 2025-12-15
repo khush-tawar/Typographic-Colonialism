@@ -1,4 +1,4 @@
-# Typography Colonialism Dataset
+# Typographic Colonialism
 
 **A comprehensive dataset documenting the global inequality in digital font availability across writing systems.**
 
@@ -14,16 +14,52 @@ This dataset powers data visualizations showing how Latin script dominates digit
 - **Arabic script**: 3.4 fonts per 100 million speakers (11× worse)
 - **Han Simplified**: 0.6 fonts per 100 million speakers (59× worse)
 
+---
+
+## 📁 Repository Structure
+
+```
+├── style_guide.json              # Design system (colors, typography)
+├── README.md
+│
+├── data/
+│   ├── raw/                      # Original input datasets
+│   │   ├── webfonts.json         # Google Fonts API
+│   │   ├── noto_github_raw.json  # Noto fonts metadata
+│   │   ├── cldr_extracted/       # Unicode CLDR data
+│   │   └── ...
+│   └── processed/                # Generated datasets
+│       ├── master_dataset_v1.json
+│       ├── graph_structure_v1.json
+│       └── master_dataset.json   # → symlink to latest
+│
+├── scripts/                      # Python processing scripts
+│   ├── build_master_dataset.py
+│   ├── build_graph.py
+│   └── ...
+│
+└── visualizations/               # Observable-ready code
+    ├── wait_vs_domination_v3.js  # Latest version
+    ├── wait_vs_domination_v2.js
+    └── ...
+```
+
+---
+
 ## Quick Start
 
 ### For Observable Notebooks
 
 ```javascript
-// Load the complete dataset
-masterData = fetch("https://raw.githubusercontent.com/khush-tawar/claude-use/dataset/master_dataset.json")
+// 1. Load style guide (once)
+styleGuide = fetch("https://raw.githubusercontent.com/khush-tawar/Typographic-Colonialism/dataset/style_guide.json")
   .then(r => r.json())
 
-// Access specific data
+// 2. Load the dataset
+masterData = fetch("https://raw.githubusercontent.com/khush-tawar/Typographic-Colonialism/dataset/data/processed/master_dataset.json")
+  .then(r => r.json())
+
+// 3. Access data
 fonts = masterData.fonts
 scripts = masterData.scripts
 timeline = masterData.combined_timeline
@@ -36,7 +72,7 @@ inequality = masterData.inequality_metrics
 import json
 import urllib.request
 
-url = "https://raw.githubusercontent.com/khush-tawar/claude-use/dataset/master_dataset.json"
+url = "https://raw.githubusercontent.com/khush-tawar/Typographic-Colonialism/dataset/data/processed/master_dataset.json"
 data = json.loads(urllib.request.urlopen(url).read())
 ```
 

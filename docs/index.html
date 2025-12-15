@@ -163,9 +163,34 @@
     
     .viz-container iframe {
       width: 100%;
-      min-height: 700px;
       border: none;
       display: block;
+    }
+    
+    /* Scale down large visualizations on smaller screens */
+    @media (max-width: 1400px) {
+      .viz-container {
+        transform-origin: top center;
+      }
+      .viz-container iframe {
+        transform: scale(0.85);
+        transform-origin: top left;
+        width: 117.6%; /* 100/0.85 to compensate */
+      }
+    }
+    
+    @media (max-width: 1000px) {
+      .viz-container iframe {
+        transform: scale(0.7);
+        width: 142.8%; /* 100/0.7 */
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .viz-container iframe {
+        transform: scale(0.5);
+        width: 200%; /* 100/0.5 */
+      }
     }
     
     /* Pull Quote */
@@ -356,9 +381,9 @@
     </p>
     
     <div class="viz-container">
-      <iframe src="https://observablehq.com/embed/@khush/typographic-colonialism@493?cells=eyeTestChart" frameborder="0"></iframe>
+      <iframe width="100%" height="1077" frameborder="0" src="https://observablehq.com/embed/@khush/typographic-colonialism@525?cells=embedEyeTest"></iframe>
     </div>
-    <div class="viz-caption">Fig 1. The Eye Test — Proportional font availability by script</div>
+    <div class="viz-caption">Fig 1. The Eye Test — Use the zoom slider to reveal the 50× disparity</div>
     
     <div class="pull-quote">
       <p>"When your script has 3 fonts and Latin has 1,900, you don't have a font choice problem. You have a visibility problem."</p>
@@ -378,9 +403,9 @@
     </p>
     
     <div class="viz-container">
-      <iframe src="https://observablehq.com/embed/@khush/typographic-colonialism@493?cells=worldMapChart" frameborder="0"></iframe>
+      <iframe width="100%" height="1325" frameborder="0" src="https://observablehq.com/embed/@khush/typographic-colonialism@525?cells=embedWorldMap"></iframe>
     </div>
-    <div class="viz-caption">Fig 2. World Script Inequality Map — Font availability by country</div>
+    <div class="viz-caption">Fig 2. World Script Inequality Map — Toggle layers to explore font availability</div>
   </section>
 
   <div class="divider"></div>
@@ -396,9 +421,9 @@
     </p>
     
     <div class="viz-container">
-      <iframe src="https://observablehq.com/embed/@khush/typographic-colonialism@493?cells=fontDistributionWheel" frameborder="0"></iframe>
+      <iframe width="100%" height="2020" frameborder="0" src="https://observablehq.com/embed/@khush/typographic-colonialism@525?cells=embedFontWheel"></iframe>
     </div>
-    <div class="viz-caption">Fig 3. Font Distribution Wheel — Hierarchy of font availability by script</div>
+    <div class="viz-caption">Fig 3. Font Distribution Wheel — Explore the hierarchy of font availability</div>
   </section>
 
   <div class="divider"></div>
@@ -414,9 +439,9 @@
     </p>
     
     <div class="viz-container">
-      <iframe src="https://observablehq.com/embed/@khush/typographic-colonialism@493?cells=noto3DVisualization" frameborder="0" style="min-height:800px;"></iframe>
+      <iframe width="100%" height="1679" frameborder="0" src="https://observablehq.com/embed/@khush/typographic-colonialism@525?cells=embedNoto3D"></iframe>
     </div>
-    <div class="viz-caption">Fig 4. Noto 3D Visualization — Font coverage across 150+ scripts</div>
+    <div class="viz-caption">Fig 4. Noto 3D Visualization — Interactive coverage across 150+ scripts</div>
     
     <div class="pull-quote">
       <p>"47 scripts would have zero fonts without Google. That's not a market failure—it's a system that never tried to include them."</p>
@@ -436,9 +461,9 @@
     </p>
     
     <div class="viz-container">
-      <iframe src="https://observablehq.com/embed/@khush/typographic-colonialism@493?cells=variableFontDivide" frameborder="0"></iframe>
+      <iframe width="100%" height="900" frameborder="0" src="https://observablehq.com/embed/@khush/typographic-colonialism@525?cells=variableFontDivide"></iframe>
     </div>
-    <div class="viz-caption">Fig 5. The Variable Font Divide — Experience typographic inequality firsthand</div>
+    <div class="viz-caption">Fig 5. The Variable Font Divide — Drag the slider to experience inequality</div>
   </section>
 
   <!-- FULL NOTEBOOK LINK -->

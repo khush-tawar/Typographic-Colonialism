@@ -1,10 +1,42 @@
 # Typographic Colonialism
 
-**A comprehensive dataset documenting the global inequality in digital font availability across writing systems.**
+### A Data Visualization Project Exposing Font Inequality Across the World's Writing Systems
 
 [![Data Source](https://img.shields.io/badge/Google%20Fonts-1916%20fonts-blue)](https://fonts.google.com/)
 [![Scripts](https://img.shields.io/badge/Scripts%20Tracked-164-green)](https://www.unicode.org/iso15924/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
+
+## 🌐 [View the Interactive Visualization →](https://khush-tawar.github.io/Typographic-Colonialism/)
+
+---
+
+## The Thesis
+
+**1,900 fonts for Latin. 32 fonts for 1.6 billion Han speakers.**
+
+Typography is not neutral. The availability of fonts across the world's writing systems reveals a stark colonial geography: Western scripts dominate, while scripts serving billions of people in Africa, South Asia, and Southeast Asia remain critically underserved.
+
+| Metric | Value |
+|--------|-------|
+| **Latin fonts** | 1,900+ (99% of all fonts) |
+| **Average non-Latin** | ~25 fonts |
+| **Worst inequality** | Han script: **59×** fewer fonts per speaker than Latin |
+| **Critical scripts** | 24 scripts with fewer than 10 fonts |
+| **Noto-only scripts** | 47 scripts that would have **zero** fonts without Google |
+
+---
+
+## Visualizations
+
+The interactive site includes 5 data-driven visualizations:
+
+1. **The Disparity** — Font wheel showing Latin's 1,900 fonts vs everyone else
+2. **The Geography** — World map revealing colonial patterns of font availability  
+3. **The Timeline** — 40-year head start bubble chart
+4. **The Rescue** — Noto's coverage and 47 rescued scripts
+5. **The Variable Divide** — Interactive slider to *experience* typographic inequality
+
+---
 
 ## Overview
 

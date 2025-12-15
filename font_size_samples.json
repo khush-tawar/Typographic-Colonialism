@@ -1,0 +1,38 @@
+{
+  "cjk": {
+    "avg_bytes": 3518152,
+    "avg_kb": 3435.7,
+    "avg_mb": 3.36,
+    "samples": 5
+  },
+  "arabic": {
+    "avg_bytes": 204121,
+    "avg_kb": 199.3,
+    "avg_mb": 0.19,
+    "samples": 5
+  },
+  "devanagari": {
+    "avg_bytes": 286756,
+    "avg_kb": 280.0,
+    "avg_mb": 0.27,
+    "samples": 5
+  },
+  "latin_only": {
+    "avg_bytes": 47863,
+    "avg_kb": 46.7,
+    "avg_mb": 0.05,
+    "samples": 5
+  },
+  "cyrillic": {
+    "avg_bytes": 234651,
+    "avg_kb": 229.2,
+    "avg_mb": 0.22,
+    "samples": 5
+  },
+  "thai": {
+    "avg_bytes": 115704,
+    "avg_kb": 113.0,
+    "avg_mb": 0.11,
+    "samples": 5
+  }
+}

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated": "2025-12-15T07:32:19.634478",
-    "version": "2.1",
+    "version": "2.2",
     "sources": {
       "google_fonts": "https://fonts.google.com/metadata/fonts",
       "iso15924": "https://www.unicode.org/iso15924/",
@@ -13,7 +13,9 @@
       "wikidata": "https://query.wikidata.org/",
       "os_fonts_windows": "https://docs.microsoft.com/en-us/typography/fonts/windows_11_font_list",
       "os_fonts_macos": "https://developer.apple.com/fonts/system-fonts/",
-      "os_fonts_android": "https://source.android.com/docs/core/fonts"
+      "os_fonts_android": "https://source.android.com/docs/core/fonts",
+      "http_archive": "https://almanac.httparchive.org/en/2022/fonts",
+      "digital_timeline": "Unicode archives, Microsoft Typography, SIL International"
     },
     "counts": {
       "total_fonts": 1916,
@@ -24,7 +26,8 @@
       "noto_scripts_covered": 65
     },
     "updated": "2025-12-15T07:42:29.309595",
-    "enhanced": "2025-12-15T07:55:04.630768"
+    "enhanced": "2025-12-15T07:55:04.630768",
+    "quick_wins_added": "2025-12-15T08:02:46.180056"
   },
   "fonts": [
     {
@@ -56807,7 +56810,25 @@
       ],
       "noto_first_release": 2017,
       "noto_weight_count": 4,
-      "unicode_added_characters": 128172
+      "unicode_added_characters": 128172,
+      "digital_age_start": 2016,
+      "years_behind_latin": 32,
+      "first_scalable_font": {
+        "year": 2016,
+        "font": "Noto Sans Adlam",
+        "company": "Google"
+      },
+      "first_free_font": {
+        "year": 2016,
+        "font": "Noto Sans Adlam",
+        "org": "Google"
+      },
+      "first_google_fonts": {
+        "year": 2019,
+        "font": "Noto Sans Adlam",
+        "date": "2019-05-01"
+      },
+      "unicode_added": 2016
     },
     "Aghb": {
       "code": "Aghb",
@@ -57029,7 +57050,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1989,
+      "years_behind_latin": 5,
+      "first_scalable_font": {
+        "year": 1989,
+        "font": "Arabic Typesetting",
+        "company": "Monotype"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "Scheherazade",
+        "org": "SIL International"
+      },
+      "first_google_fonts": {
+        "year": 2011,
+        "font": "Droid Arabic Naskh",
+        "date": "2011-03-15"
+      },
+      "unicode_added": 1991
     },
     "Armi": {
       "code": "Armi",
@@ -57117,7 +57156,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1997,
+      "years_behind_latin": 13,
+      "first_scalable_font": {
+        "year": 1997,
+        "font": "ArmNet",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2005,
+        "font": "DejaVu Armenian",
+        "org": "DejaVu"
+      },
+      "first_google_fonts": {
+        "year": 2015,
+        "font": "Noto Sans Armenian",
+        "date": "2015-01-07"
+      },
+      "unicode_added": 1991
     },
     "Avst": {
       "code": "Avst",
@@ -57357,7 +57414,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1995,
+      "years_behind_latin": 11,
+      "first_scalable_font": {
+        "year": 1995,
+        "font": "SutonnyMJ",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "Lohit Bengali",
+        "org": "Red Hat"
+      },
+      "first_google_fonts": {
+        "year": 2012,
+        "font": "Lohit Bengali",
+        "date": "2012-03-14"
+      },
+      "unicode_added": 1991
     },
     "Bhks": {
       "code": "Bhks",
@@ -57593,7 +57668,25 @@
       ],
       "noto_first_release": 2016,
       "noto_weight_count": 9,
-      "unicode_added_characters": 49194
+      "unicode_added_characters": 49194,
+      "digital_age_start": 2003,
+      "years_behind_latin": 19,
+      "first_scalable_font": {
+        "year": 2003,
+        "font": "Euphemia",
+        "company": "Tiro Typeworks"
+      },
+      "first_free_font": {
+        "year": 2007,
+        "font": "Aboriginal Sans",
+        "org": "LanguageGeek"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Canadian Aboriginal",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 1999
     },
     "Cari": {
       "code": "Cari",
@@ -57728,7 +57821,25 @@
       ],
       "noto_first_release": 2015,
       "noto_weight_count": 9,
-      "unicode_added_characters": 49194
+      "unicode_added_characters": 49194,
+      "digital_age_start": 2001,
+      "years_behind_latin": 17,
+      "first_scalable_font": {
+        "year": 2001,
+        "font": "Plantagenet Cherokee",
+        "company": "Ross Mills"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "FreeSans Cherokee",
+        "org": "GNU"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Cherokee",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 1999
     },
     "Chrs": {
       "code": "Chrs",
@@ -57989,7 +58100,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1990,
+      "years_behind_latin": 6,
+      "first_scalable_font": {
+        "year": 1990,
+        "font": "ParaType fonts",
+        "company": "ParaType"
+      },
+      "first_free_font": {
+        "year": 2003,
+        "font": "PT Sans",
+        "org": "ParaType"
+      },
+      "first_google_fonts": {
+        "year": 2010,
+        "font": "Droid Sans",
+        "date": "2010-05-19"
+      },
+      "unicode_added": 1991
     },
     "Deva": {
       "code": "Deva",
@@ -58112,7 +58241,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1991,
+      "years_behind_latin": 7,
+      "first_scalable_font": {
+        "year": 1991,
+        "font": "Raghu",
+        "company": "CDAC India"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "Lohit Devanagari",
+        "org": "Red Hat"
+      },
+      "first_google_fonts": {
+        "year": 2011,
+        "font": "Lohit Devanagari",
+        "date": "2011-05-25"
+      },
+      "unicode_added": 1991
     },
     "Diak": {
       "code": "Diak",
@@ -58367,7 +58514,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 49194
+      "unicode_added_characters": 49194,
+      "digital_age_start": 1997,
+      "years_behind_latin": 13,
+      "first_scalable_font": {
+        "year": 1997,
+        "font": "GF Zemen",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2003,
+        "font": "Abyssinica SIL",
+        "org": "SIL International"
+      },
+      "first_google_fonts": {
+        "year": 2015,
+        "font": "Noto Sans Ethiopic",
+        "date": "2015-09-16"
+      },
+      "unicode_added": 1999
     },
     "Geor": {
       "code": "Geor",
@@ -58424,7 +58589,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1998,
+      "years_behind_latin": 14,
+      "first_scalable_font": {
+        "year": 1998,
+        "font": "Georgian Academy",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2005,
+        "font": "DejaVu Georgian",
+        "org": "DejaVu"
+      },
+      "first_google_fonts": {
+        "year": 2015,
+        "font": "Noto Sans Georgian",
+        "date": "2015-01-07"
+      },
+      "unicode_added": 1991
     },
     "Glag": {
       "code": "Glag",
@@ -58646,7 +58829,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1989,
+      "years_behind_latin": 5,
+      "first_scalable_font": {
+        "year": 1989,
+        "font": "GFS Didot",
+        "company": "Greek Font Society"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "GFS fonts",
+        "org": "Greek Font Society"
+      },
+      "first_google_fonts": {
+        "year": 2010,
+        "font": "Droid Sans",
+        "date": "2010-05-19"
+      },
+      "unicode_added": 1991
     },
     "Gujr": {
       "code": "Gujr",
@@ -58854,7 +59055,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": null
+      "unicode_added_characters": null,
+      "digital_age_start": 1991,
+      "years_behind_latin": 7,
+      "first_scalable_font": {
+        "year": 1991,
+        "font": "SimSun",
+        "company": "Zhongyi"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "WenQuanYi",
+        "org": "Community"
+      },
+      "first_google_fonts": {
+        "year": 2014,
+        "font": "Noto Sans SC",
+        "date": "2014-07-16"
+      },
+      "unicode_added": 1991
     },
     "Hant": {
       "code": "Hant",
@@ -58931,7 +59150,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": null
+      "unicode_added_characters": null,
+      "digital_age_start": 1992,
+      "years_behind_latin": 8,
+      "first_scalable_font": {
+        "year": 1992,
+        "font": "MingLiU",
+        "company": "DynaLab"
+      },
+      "first_free_font": {
+        "year": 2005,
+        "font": "AR PL fonts",
+        "org": "Arphic"
+      },
+      "first_google_fonts": {
+        "year": 2014,
+        "font": "Noto Sans TC",
+        "date": "2014-07-16"
+      },
+      "unicode_added": 1991
     },
     "Hatr": {
       "code": "Hatr",
@@ -59020,7 +59257,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1990,
+      "years_behind_latin": 6,
+      "first_scalable_font": {
+        "year": 1990,
+        "font": "Hadassah",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2005,
+        "font": "Ezra SIL",
+        "org": "SIL International"
+      },
+      "first_google_fonts": {
+        "year": 2011,
+        "font": "Alef",
+        "date": "2011-08-10"
+      },
+      "unicode_added": 1991
     },
     "Hluw": {
       "code": "Hluw",
@@ -59255,7 +59510,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": null
+      "unicode_added_characters": null,
+      "digital_age_start": 1989,
+      "years_behind_latin": 5,
+      "first_scalable_font": {
+        "year": 1989,
+        "font": "Morisawa fonts",
+        "company": "Morisawa"
+      },
+      "first_free_font": {
+        "year": 2002,
+        "font": "Kochi",
+        "org": "Community"
+      },
+      "first_google_fonts": {
+        "year": 2014,
+        "font": "Noto Sans JP",
+        "date": "2014-07-16"
+      },
+      "unicode_added": 1991
     },
     "Kali": {
       "code": "Kali",
@@ -59432,7 +59705,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 49194
+      "unicode_added_characters": 49194,
+      "digital_age_start": 2004,
+      "years_behind_latin": 20,
+      "first_scalable_font": {
+        "year": 2004,
+        "font": "Khmer OS",
+        "company": "Open Institute"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "Khmer OS",
+        "org": "Open Institute"
+      },
+      "first_google_fonts": {
+        "year": 2015,
+        "font": "Battambang",
+        "date": "2015-04-22"
+      },
+      "unicode_added": 1999
     },
     "Khoj": {
       "code": "Khoj",
@@ -59606,7 +59897,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": null
+      "unicode_added_characters": null,
+      "digital_age_start": 1992,
+      "years_behind_latin": 8,
+      "first_scalable_font": {
+        "year": 1992,
+        "font": "Batang/Gulim",
+        "company": "Korean vendors"
+      },
+      "first_free_font": {
+        "year": 2003,
+        "font": "UnBatang",
+        "org": "Korean community"
+      },
+      "first_google_fonts": {
+        "year": 2014,
+        "font": "Noto Sans KR",
+        "date": "2014-07-16"
+      },
+      "unicode_added": 1993
     },
     "Krai": {
       "code": "Krai",
@@ -59764,7 +60073,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 2003,
+      "years_behind_latin": 19,
+      "first_scalable_font": {
+        "year": 2003,
+        "font": "Phetsarath",
+        "company": "Laos government"
+      },
+      "first_free_font": {
+        "year": 2003,
+        "font": "Phetsarath",
+        "org": "Laos STEA"
+      },
+      "first_google_fonts": {
+        "year": 2015,
+        "font": "Phetsarath",
+        "date": "2015-01-07"
+      },
+      "unicode_added": 1991
     },
     "Latn": {
       "code": "Latn",
@@ -60554,7 +60881,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1984,
+      "years_behind_latin": 0,
+      "first_scalable_font": {
+        "year": 1984,
+        "font": "Times (PostScript)",
+        "company": "Adobe/Linotype"
+      },
+      "first_free_font": {
+        "year": 1996,
+        "font": "Bitstream Vera",
+        "org": "Bitstream/Gnome"
+      },
+      "first_google_fonts": {
+        "year": 2010,
+        "font": "Droid Sans",
+        "date": "2010-05-19"
+      },
+      "unicode_added": 1991
     },
     "Lepc": {
       "code": "Lepc",
@@ -61325,7 +61670,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 49194
+      "unicode_added_characters": 49194,
+      "digital_age_start": 2005,
+      "years_behind_latin": 21,
+      "first_scalable_font": {
+        "year": 2002,
+        "font": "Myanmar1",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2005,
+        "font": "Padauk",
+        "org": "SIL International"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Myanmar",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 1999
     },
     "Nagm": {
       "code": "Nagm",
@@ -61505,7 +61868,25 @@
       ],
       "noto_first_release": 2016,
       "noto_weight_count": 1,
-      "unicode_added_characters": 99024
+      "unicode_added_characters": 99024,
+      "digital_age_start": 2006,
+      "years_behind_latin": 22,
+      "first_scalable_font": {
+        "year": 2006,
+        "font": "Kanjamadi",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2012,
+        "font": "Noto Sans NKo",
+        "org": "Google"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans NKo",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 2006
     },
     "Nshu": {
       "code": "Nshu",
@@ -62421,7 +62802,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 49194
+      "unicode_added_characters": 49194,
+      "digital_age_start": 2003,
+      "years_behind_latin": 19,
+      "first_scalable_font": {
+        "year": 2003,
+        "font": "Iskoola Pota",
+        "company": "Microsoft"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "LKLUG fonts",
+        "org": "LKLUG"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Sinhala",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 1999
     },
     "Sogd": {
       "code": "Sogd",
@@ -62862,7 +63261,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1999,
+      "years_behind_latin": 15,
+      "first_scalable_font": {
+        "year": 1999,
+        "font": "Latha",
+        "company": "Microsoft"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "Lohit Tamil",
+        "org": "Red Hat"
+      },
+      "first_google_fonts": {
+        "year": 2012,
+        "font": "Lohit Tamil",
+        "date": "2012-03-14"
+      },
+      "unicode_added": 1991
     },
     "Tang": {
       "code": "Tang",
@@ -62979,7 +63396,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1999,
+      "years_behind_latin": 15,
+      "first_scalable_font": {
+        "year": 1999,
+        "font": "Gautami",
+        "company": "Microsoft"
+      },
+      "first_free_font": {
+        "year": 2004,
+        "font": "Lohit Telugu",
+        "org": "Red Hat"
+      },
+      "first_google_fonts": {
+        "year": 2012,
+        "font": "Lohit Telugu",
+        "date": "2012-03-14"
+      },
+      "unicode_added": 1991
     },
     "Tfng": {
       "code": "Tfng",
@@ -63024,7 +63459,25 @@
       ],
       "noto_first_release": 2016,
       "noto_weight_count": 1,
-      "unicode_added_characters": 97655
+      "unicode_added_characters": 97655,
+      "digital_age_start": 2005,
+      "years_behind_latin": 21,
+      "first_scalable_font": {
+        "year": 2005,
+        "font": "Tifinaghe-IRCAM",
+        "company": "IRCAM"
+      },
+      "first_free_font": {
+        "year": 2005,
+        "font": "Tifinaghe-IRCAM",
+        "org": "IRCAM Morocco"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Tifinagh",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 2005
     },
     "Tglg": {
       "code": "Tglg",
@@ -63173,7 +63626,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1992,
+      "years_behind_latin": 8,
+      "first_scalable_font": {
+        "year": 1992,
+        "font": "Cordia",
+        "company": "Various"
+      },
+      "first_free_font": {
+        "year": 2003,
+        "font": "Garuda",
+        "org": "TLWG"
+      },
+      "first_google_fonts": {
+        "year": 2012,
+        "font": "Chonburi",
+        "date": "2012-09-05"
+      },
+      "unicode_added": 1991
     },
     "Tibt": {
       "code": "Tibt",
@@ -63230,7 +63701,25 @@
       ],
       "noto_first_release": 2014,
       "noto_weight_count": 9,
-      "unicode_added_characters": 7161
+      "unicode_added_characters": 7161,
+      "digital_age_start": 1997,
+      "years_behind_latin": 13,
+      "first_scalable_font": {
+        "year": 1997,
+        "font": "Tibetan Machine Uni",
+        "company": "THDL"
+      },
+      "first_free_font": {
+        "year": 1997,
+        "font": "Tibetan Machine Uni",
+        "org": "THDL"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Tibetan",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 1996
     },
     "Tirh": {
       "code": "Tirh",
@@ -63406,7 +63895,25 @@
       ],
       "noto_first_release": 2016,
       "noto_weight_count": 1,
-      "unicode_added_characters": 100648
+      "unicode_added_characters": 100648,
+      "digital_age_start": 2008,
+      "years_behind_latin": 24,
+      "first_scalable_font": {
+        "year": 2008,
+        "font": "Dukor",
+        "company": "Jason Glavy"
+      },
+      "first_free_font": {
+        "year": 2013,
+        "font": "Noto Sans Vai",
+        "org": "Google"
+      },
+      "first_google_fonts": {
+        "year": 2016,
+        "font": "Noto Sans Vai",
+        "date": "2016-02-29"
+      },
+      "unicode_added": 2008
     },
     "Vith": {
       "code": "Vith",
@@ -176719,5 +177226,2201 @@
     "monospace_desert_scripts": 161,
     "italic_desert_scripts": 138,
     "os_systems_tracked": 4
+  },
+  "digital_timeline": {
+    "scripts": {
+      "Latn": {
+        "name": "Latin",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1968,
+          "context": "PLATO system, then Xerox Alto"
+        },
+        "first_scalable": {
+          "year": 1984,
+          "font": "Times (PostScript)",
+          "company": "Adobe/Linotype"
+        },
+        "first_truetype": {
+          "year": 1991,
+          "font": "Times New Roman",
+          "company": "Monotype/Microsoft"
+        },
+        "first_free": {
+          "year": 1996,
+          "font": "Bitstream Vera",
+          "org": "Bitstream/Gnome"
+        },
+        "first_google_fonts": {
+          "year": 2010,
+          "font": "Droid Sans",
+          "date": "2010-05-19"
+        },
+        "digital_age_start": 1984,
+        "years_head_start": 0,
+        "notes": "The reference point - all other scripts measured against Latin"
+      },
+      "Cyrl": {
+        "name": "Cyrillic",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1980,
+          "context": "Soviet computer systems"
+        },
+        "first_scalable": {
+          "year": 1990,
+          "font": "ParaType fonts",
+          "company": "ParaType"
+        },
+        "first_truetype": {
+          "year": 1992,
+          "font": "Arial Cyrillic",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2003,
+          "font": "PT Sans",
+          "org": "ParaType"
+        },
+        "first_google_fonts": {
+          "year": 2010,
+          "font": "Droid Sans",
+          "date": "2010-05-19"
+        },
+        "digital_age_start": 1990,
+        "years_head_start": -6,
+        "notes": "ParaType (Russia) pioneered Cyrillic digital type"
+      },
+      "Grek": {
+        "name": "Greek",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1982,
+          "context": "Academic computing"
+        },
+        "first_scalable": {
+          "year": 1989,
+          "font": "GFS Didot",
+          "company": "Greek Font Society"
+        },
+        "first_truetype": {
+          "year": 1992,
+          "font": "Arial Greek",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "GFS fonts",
+          "org": "Greek Font Society"
+        },
+        "first_google_fonts": {
+          "year": 2010,
+          "font": "Droid Sans",
+          "date": "2010-05-19"
+        },
+        "digital_age_start": 1989,
+        "years_head_start": -5,
+        "notes": "Greek Font Society preserved typographic heritage"
+      },
+      "Arab": {
+        "name": "Arabic",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1982,
+          "context": "Sakhr computers (Kuwait)"
+        },
+        "first_scalable": {
+          "year": 1989,
+          "font": "Arabic Typesetting",
+          "company": "Monotype"
+        },
+        "first_truetype": {
+          "year": 1993,
+          "font": "Traditional Arabic",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "Scheherazade",
+          "org": "SIL International"
+        },
+        "first_google_fonts": {
+          "year": 2011,
+          "font": "Droid Arabic Naskh",
+          "date": "2011-03-15"
+        },
+        "digital_age_start": 1989,
+        "years_head_start": -5,
+        "notes": "Complex shaping requirements delayed quality fonts"
+      },
+      "Hebr": {
+        "name": "Hebrew",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1984,
+          "context": "Israeli computing"
+        },
+        "first_scalable": {
+          "year": 1990,
+          "font": "Hadassah",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 1992,
+          "font": "David",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2005,
+          "font": "Ezra SIL",
+          "org": "SIL International"
+        },
+        "first_google_fonts": {
+          "year": 2011,
+          "font": "Alef",
+          "date": "2011-08-10"
+        },
+        "digital_age_start": 1990,
+        "years_head_start": -6,
+        "notes": "Strong Israeli tech sector supported development"
+      },
+      "Deva": {
+        "name": "Devanagari",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1983,
+          "context": "CDAC GIST project, India"
+        },
+        "first_scalable": {
+          "year": 1991,
+          "font": "Raghu",
+          "company": "CDAC India"
+        },
+        "first_truetype": {
+          "year": 1996,
+          "font": "Mangal",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "Lohit Devanagari",
+          "org": "Red Hat"
+        },
+        "first_google_fonts": {
+          "year": 2011,
+          "font": "Lohit Devanagari",
+          "date": "2011-05-25"
+        },
+        "digital_age_start": 1991,
+        "years_head_start": -7,
+        "notes": "CDAC India pioneered Indic digital typography"
+      },
+      "Beng": {
+        "name": "Bengali (Bangla)",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1986,
+          "context": "Ananda Computers, Bangladesh"
+        },
+        "first_scalable": {
+          "year": 1995,
+          "font": "SutonnyMJ",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 1998,
+          "font": "Vrinda",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "Lohit Bengali",
+          "org": "Red Hat"
+        },
+        "first_google_fonts": {
+          "year": 2012,
+          "font": "Lohit Bengali",
+          "date": "2012-03-14"
+        },
+        "digital_age_start": 1995,
+        "years_head_start": -11,
+        "notes": "Complex conjuncts made digital rendering difficult"
+      },
+      "Taml": {
+        "name": "Tamil",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1985,
+          "context": "TSCII standard development"
+        },
+        "first_scalable": {
+          "year": 1999,
+          "font": "Latha",
+          "company": "Microsoft"
+        },
+        "first_truetype": {
+          "year": 1999,
+          "font": "Latha",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "Lohit Tamil",
+          "org": "Red Hat"
+        },
+        "first_google_fonts": {
+          "year": 2012,
+          "font": "Lohit Tamil",
+          "date": "2012-03-14"
+        },
+        "digital_age_start": 1999,
+        "years_head_start": -15,
+        "notes": "Tamil script encoding was contentious, delayed standardization"
+      },
+      "Telu": {
+        "name": "Telugu",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1988,
+          "context": "C-DAC efforts"
+        },
+        "first_scalable": {
+          "year": 1999,
+          "font": "Gautami",
+          "company": "Microsoft"
+        },
+        "first_truetype": {
+          "year": 1999,
+          "font": "Gautami",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "Lohit Telugu",
+          "org": "Red Hat"
+        },
+        "first_google_fonts": {
+          "year": 2012,
+          "font": "Lohit Telugu",
+          "date": "2012-03-14"
+        },
+        "digital_age_start": 1999,
+        "years_head_start": -15,
+        "notes": "Telugu has most complex character combinations of Indic scripts"
+      },
+      "Thai": {
+        "name": "Thai",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1986,
+          "context": "Thai government systems"
+        },
+        "first_scalable": {
+          "year": 1992,
+          "font": "Cordia",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 1995,
+          "font": "Tahoma Thai",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2003,
+          "font": "Garuda",
+          "org": "TLWG"
+        },
+        "first_google_fonts": {
+          "year": 2012,
+          "font": "Chonburi",
+          "date": "2012-09-05"
+        },
+        "digital_age_start": 1992,
+        "years_head_start": -8,
+        "notes": "Thai Linux Working Group created essential free fonts"
+      },
+      "Jpan": {
+        "name": "Japanese",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1978,
+          "context": "Japanese word processors"
+        },
+        "first_scalable": {
+          "year": 1989,
+          "font": "Morisawa fonts",
+          "company": "Morisawa"
+        },
+        "first_truetype": {
+          "year": 1993,
+          "font": "MS Gothic",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2002,
+          "font": "Kochi",
+          "org": "Community"
+        },
+        "first_google_fonts": {
+          "year": 2014,
+          "font": "Noto Sans JP",
+          "date": "2014-07-16"
+        },
+        "digital_age_start": 1989,
+        "years_head_start": -5,
+        "notes": "High commercial font market; free fonts came late"
+      },
+      "Kore": {
+        "name": "Korean",
+        "unicode_version": "1.1",
+        "unicode_year": 1993,
+        "first_bitmap": {
+          "year": 1982,
+          "context": "Korean PC development"
+        },
+        "first_scalable": {
+          "year": 1992,
+          "font": "Batang/Gulim",
+          "company": "Korean vendors"
+        },
+        "first_truetype": {
+          "year": 1995,
+          "font": "Batang",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2003,
+          "font": "UnBatang",
+          "org": "Korean community"
+        },
+        "first_google_fonts": {
+          "year": 2014,
+          "font": "Noto Sans KR",
+          "date": "2014-07-16"
+        },
+        "digital_age_start": 1992,
+        "years_head_start": -8,
+        "notes": "Hangul's 11,172 syllable blocks make font creation massive"
+      },
+      "Hans": {
+        "name": "Chinese Simplified",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1981,
+          "context": "Chinese computing development"
+        },
+        "first_scalable": {
+          "year": 1991,
+          "font": "SimSun",
+          "company": "Zhongyi"
+        },
+        "first_truetype": {
+          "year": 1995,
+          "font": "SimSun",
+          "company": "Microsoft/Zhongyi"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "WenQuanYi",
+          "org": "Community"
+        },
+        "first_google_fonts": {
+          "year": 2014,
+          "font": "Noto Sans SC",
+          "date": "2014-07-16"
+        },
+        "digital_age_start": 1991,
+        "years_head_start": -7,
+        "notes": "70,000+ characters make CJK font creation enormous undertaking"
+      },
+      "Hant": {
+        "name": "Chinese Traditional",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1984,
+          "context": "Taiwan computing"
+        },
+        "first_scalable": {
+          "year": 1992,
+          "font": "MingLiU",
+          "company": "DynaLab"
+        },
+        "first_truetype": {
+          "year": 1995,
+          "font": "MingLiU",
+          "company": "Microsoft/DynaLab"
+        },
+        "first_free": {
+          "year": 2005,
+          "font": "AR PL fonts",
+          "org": "Arphic"
+        },
+        "first_google_fonts": {
+          "year": 2014,
+          "font": "Noto Sans TC",
+          "date": "2014-07-16"
+        },
+        "digital_age_start": 1992,
+        "years_head_start": -8,
+        "notes": "More complex characters than Simplified Chinese"
+      },
+      "Ethi": {
+        "name": "Ethiopic",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "first_bitmap": {
+          "year": 1987,
+          "context": "Ethiopian government computing"
+        },
+        "first_scalable": {
+          "year": 1997,
+          "font": "GF Zemen",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 2001,
+          "font": "Nyala",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2003,
+          "font": "Abyssinica SIL",
+          "org": "SIL International"
+        },
+        "first_google_fonts": {
+          "year": 2015,
+          "font": "Noto Sans Ethiopic",
+          "date": "2015-09-16"
+        },
+        "digital_age_start": 1997,
+        "years_head_start": -13,
+        "notes": "Unicode support came 8 years after Latin"
+      },
+      "Armn": {
+        "name": "Armenian",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1988,
+          "context": "Armenian computing"
+        },
+        "first_scalable": {
+          "year": 1997,
+          "font": "ArmNet",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 2000,
+          "font": "Sylfaen",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2005,
+          "font": "DejaVu Armenian",
+          "org": "DejaVu"
+        },
+        "first_google_fonts": {
+          "year": 2015,
+          "font": "Noto Sans Armenian",
+          "date": "2015-01-07"
+        },
+        "digital_age_start": 1997,
+        "years_head_start": -13,
+        "notes": "Small speaking population delayed commercial interest"
+      },
+      "Geor": {
+        "name": "Georgian",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1990,
+          "context": "Georgian computing"
+        },
+        "first_scalable": {
+          "year": 1998,
+          "font": "Georgian Academy",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 2000,
+          "font": "Sylfaen",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2005,
+          "font": "DejaVu Georgian",
+          "org": "DejaVu"
+        },
+        "first_google_fonts": {
+          "year": 2015,
+          "font": "Noto Sans Georgian",
+          "date": "2015-01-07"
+        },
+        "digital_age_start": 1998,
+        "years_head_start": -14,
+        "notes": "Has three script variants (Mkhedruli, Asomtavruli, Nuskhuri)"
+      },
+      "Mymr": {
+        "name": "Myanmar (Burmese)",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "first_bitmap": {
+          "year": 1995,
+          "context": "Myanmar government"
+        },
+        "first_scalable": {
+          "year": 2002,
+          "font": "Myanmar1",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 2005,
+          "font": "Padauk",
+          "company": "SIL"
+        },
+        "first_free": {
+          "year": 2005,
+          "font": "Padauk",
+          "org": "SIL International"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Myanmar",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2005,
+        "years_head_start": -21,
+        "notes": "Zawgyi non-Unicode encoding dominated until 2019"
+      },
+      "Khmr": {
+        "name": "Khmer (Cambodian)",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "first_bitmap": {
+          "year": 1992,
+          "context": "Khmer computing initiatives"
+        },
+        "first_scalable": {
+          "year": 2004,
+          "font": "Khmer OS",
+          "company": "Open Institute"
+        },
+        "first_truetype": {
+          "year": 2005,
+          "font": "Khmer OS",
+          "company": "Open Institute"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "Khmer OS",
+          "org": "Open Institute"
+        },
+        "first_google_fonts": {
+          "year": 2015,
+          "font": "Battambang",
+          "date": "2015-04-22"
+        },
+        "digital_age_start": 2004,
+        "years_head_start": -20,
+        "notes": "Has the largest alphabet in the world (74 letters)"
+      },
+      "Sinh": {
+        "name": "Sinhala",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "first_bitmap": {
+          "year": 1990,
+          "context": "Sri Lankan computing"
+        },
+        "first_scalable": {
+          "year": 2003,
+          "font": "Iskoola Pota",
+          "company": "Microsoft"
+        },
+        "first_truetype": {
+          "year": 2003,
+          "font": "Iskoola Pota",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "LKLUG fonts",
+          "org": "LKLUG"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Sinhala",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2003,
+        "years_head_start": -19,
+        "notes": "Complex vowel diacritics made rendering challenging"
+      },
+      "Laoo": {
+        "name": "Lao",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "first_bitmap": {
+          "year": 1994,
+          "context": "Lao PDR computing"
+        },
+        "first_scalable": {
+          "year": 2003,
+          "font": "Phetsarath",
+          "company": "Laos government"
+        },
+        "first_truetype": {
+          "year": 2003,
+          "font": "Phetsarath",
+          "company": "Laos government"
+        },
+        "first_free": {
+          "year": 2003,
+          "font": "Phetsarath",
+          "org": "Laos STEA"
+        },
+        "first_google_fonts": {
+          "year": 2015,
+          "font": "Phetsarath",
+          "date": "2015-01-07"
+        },
+        "digital_age_start": 2003,
+        "years_head_start": -19,
+        "notes": "Government-led standardization came late"
+      },
+      "Tibt": {
+        "name": "Tibetan",
+        "unicode_version": "2.0",
+        "unicode_year": 1996,
+        "first_bitmap": {
+          "year": 1990,
+          "context": "Tibetan exile communities"
+        },
+        "first_scalable": {
+          "year": 1997,
+          "font": "Tibetan Machine Uni",
+          "company": "THDL"
+        },
+        "first_truetype": {
+          "year": 1997,
+          "font": "Tibetan Machine Uni",
+          "company": "THDL"
+        },
+        "first_free": {
+          "year": 1997,
+          "font": "Tibetan Machine Uni",
+          "org": "THDL"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Tibetan",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 1997,
+        "years_head_start": -13,
+        "notes": "Tibetan & Himalayan Digital Library pioneered preservation"
+      },
+      "Cher": {
+        "name": "Cherokee",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "first_bitmap": {
+          "year": 1994,
+          "context": "Cherokee Nation computing"
+        },
+        "first_scalable": {
+          "year": 2001,
+          "font": "Plantagenet Cherokee",
+          "company": "Ross Mills"
+        },
+        "first_truetype": {
+          "year": 2001,
+          "font": "Plantagenet Cherokee",
+          "company": "Apple"
+        },
+        "first_free": {
+          "year": 2004,
+          "font": "FreeSans Cherokee",
+          "org": "GNU"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Cherokee",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2001,
+        "years_head_start": -17,
+        "notes": "Cherokee Nation invested in language preservation"
+      },
+      "Cans": {
+        "name": "Canadian Aboriginal",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "first_bitmap": {
+          "year": 1996,
+          "context": "Canadian Indigenous computing"
+        },
+        "first_scalable": {
+          "year": 2003,
+          "font": "Euphemia",
+          "company": "Tiro Typeworks"
+        },
+        "first_truetype": {
+          "year": 2003,
+          "font": "Euphemia",
+          "company": "Microsoft/Tiro"
+        },
+        "first_free": {
+          "year": 2007,
+          "font": "Aboriginal Sans",
+          "org": "LanguageGeek"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Canadian Aboriginal",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2003,
+        "years_head_start": -19,
+        "notes": "Unified Canadian Aboriginal Syllabics covers multiple languages"
+      },
+      "Nkoo": {
+        "name": "N'Ko",
+        "unicode_version": "5.0",
+        "unicode_year": 2006,
+        "first_bitmap": {
+          "year": 1997,
+          "context": "N'Ko literacy movement"
+        },
+        "first_scalable": {
+          "year": 2006,
+          "font": "Kanjamadi",
+          "company": "Various"
+        },
+        "first_truetype": {
+          "year": 2008,
+          "font": "Ebrima",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2012,
+          "font": "Noto Sans NKo",
+          "org": "Google"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans NKo",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2006,
+        "years_head_start": -22,
+        "notes": "Script created in 1949, Unicode came 57 years later"
+      },
+      "Tfng": {
+        "name": "Tifinagh (Berber)",
+        "unicode_version": "4.1",
+        "unicode_year": 2005,
+        "first_bitmap": {
+          "year": 2000,
+          "context": "IRCAM Morocco"
+        },
+        "first_scalable": {
+          "year": 2005,
+          "font": "Tifinaghe-IRCAM",
+          "company": "IRCAM"
+        },
+        "first_truetype": {
+          "year": 2005,
+          "font": "Tifinaghe-IRCAM",
+          "company": "IRCAM"
+        },
+        "first_free": {
+          "year": 2005,
+          "font": "Tifinaghe-IRCAM",
+          "org": "IRCAM Morocco"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Tifinagh",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2005,
+        "years_head_start": -21,
+        "notes": "Ancient Berber script, standardized for modern use in Morocco"
+      },
+      "Vaii": {
+        "name": "Vai",
+        "unicode_version": "5.1",
+        "unicode_year": 2008,
+        "first_bitmap": {
+          "year": 2005,
+          "context": "Liberia literacy projects"
+        },
+        "first_scalable": {
+          "year": 2008,
+          "font": "Dukor",
+          "company": "Jason Glavy"
+        },
+        "first_truetype": {
+          "year": 2008,
+          "font": "Ebrima",
+          "company": "Microsoft"
+        },
+        "first_free": {
+          "year": 2013,
+          "font": "Noto Sans Vai",
+          "org": "Google"
+        },
+        "first_google_fonts": {
+          "year": 2016,
+          "font": "Noto Sans Vai",
+          "date": "2016-02-29"
+        },
+        "digital_age_start": 2008,
+        "years_head_start": -24,
+        "notes": "One of the few independently invented African scripts"
+      },
+      "Adlm": {
+        "name": "Adlam",
+        "unicode_version": "9.0",
+        "unicode_year": 2016,
+        "first_bitmap": {
+          "year": 2014,
+          "context": "Adlam creators' work"
+        },
+        "first_scalable": {
+          "year": 2016,
+          "font": "Noto Sans Adlam",
+          "company": "Google"
+        },
+        "first_truetype": {
+          "year": 2016,
+          "font": "Noto Sans Adlam",
+          "company": "Google"
+        },
+        "first_free": {
+          "year": 2016,
+          "font": "Noto Sans Adlam",
+          "org": "Google"
+        },
+        "first_google_fonts": {
+          "year": 2019,
+          "font": "Noto Sans Adlam",
+          "date": "2019-05-01"
+        },
+        "digital_age_start": 2016,
+        "years_head_start": -32,
+        "notes": "Script created in 1989 by teenagers in Guinea"
+      }
+    },
+    "wait_times": [
+      {
+        "code": "Adlm",
+        "name": "Adlam",
+        "unicode_version": "9.0",
+        "unicode_year": 2016,
+        "digital_age_start": 2016,
+        "years_behind_latin": 32,
+        "first_free_font_year": 2016,
+        "years_waiting_for_free": 20,
+        "first_google_fonts_year": 2019,
+        "years_waiting_for_google": 9,
+        "first_scalable_font": "Noto Sans Adlam",
+        "first_scalable_year": 2016,
+        "first_free_font": "Noto Sans Adlam",
+        "notes": "Script created in 1989 by teenagers in Guinea"
+      },
+      {
+        "code": "Vaii",
+        "name": "Vai",
+        "unicode_version": "5.1",
+        "unicode_year": 2008,
+        "digital_age_start": 2008,
+        "years_behind_latin": 24,
+        "first_free_font_year": 2013,
+        "years_waiting_for_free": 17,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Dukor",
+        "first_scalable_year": 2008,
+        "first_free_font": "Noto Sans Vai",
+        "notes": "One of the few independently invented African scripts"
+      },
+      {
+        "code": "Nkoo",
+        "name": "N'Ko",
+        "unicode_version": "5.0",
+        "unicode_year": 2006,
+        "digital_age_start": 2006,
+        "years_behind_latin": 22,
+        "first_free_font_year": 2012,
+        "years_waiting_for_free": 16,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Kanjamadi",
+        "first_scalable_year": 2006,
+        "first_free_font": "Noto Sans NKo",
+        "notes": "Script created in 1949, Unicode came 57 years later"
+      },
+      {
+        "code": "Mymr",
+        "name": "Myanmar (Burmese)",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "digital_age_start": 2005,
+        "years_behind_latin": 21,
+        "first_free_font_year": 2005,
+        "years_waiting_for_free": 9,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Myanmar1",
+        "first_scalable_year": 2002,
+        "first_free_font": "Padauk",
+        "notes": "Zawgyi non-Unicode encoding dominated until 2019"
+      },
+      {
+        "code": "Tfng",
+        "name": "Tifinagh (Berber)",
+        "unicode_version": "4.1",
+        "unicode_year": 2005,
+        "digital_age_start": 2005,
+        "years_behind_latin": 21,
+        "first_free_font_year": 2005,
+        "years_waiting_for_free": 9,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Tifinaghe-IRCAM",
+        "first_scalable_year": 2005,
+        "first_free_font": "Tifinaghe-IRCAM",
+        "notes": "Ancient Berber script, standardized for modern use in Morocco"
+      },
+      {
+        "code": "Khmr",
+        "name": "Khmer (Cambodian)",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "digital_age_start": 2004,
+        "years_behind_latin": 20,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2015,
+        "years_waiting_for_google": 5,
+        "first_scalable_font": "Khmer OS",
+        "first_scalable_year": 2004,
+        "first_free_font": "Khmer OS",
+        "notes": "Has the largest alphabet in the world (74 letters)"
+      },
+      {
+        "code": "Sinh",
+        "name": "Sinhala",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "digital_age_start": 2003,
+        "years_behind_latin": 19,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Iskoola Pota",
+        "first_scalable_year": 2003,
+        "first_free_font": "LKLUG fonts",
+        "notes": "Complex vowel diacritics made rendering challenging"
+      },
+      {
+        "code": "Laoo",
+        "name": "Lao",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 2003,
+        "years_behind_latin": 19,
+        "first_free_font_year": 2003,
+        "years_waiting_for_free": 7,
+        "first_google_fonts_year": 2015,
+        "years_waiting_for_google": 5,
+        "first_scalable_font": "Phetsarath",
+        "first_scalable_year": 2003,
+        "first_free_font": "Phetsarath",
+        "notes": "Government-led standardization came late"
+      },
+      {
+        "code": "Cans",
+        "name": "Canadian Aboriginal",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "digital_age_start": 2003,
+        "years_behind_latin": 19,
+        "first_free_font_year": 2007,
+        "years_waiting_for_free": 11,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Euphemia",
+        "first_scalable_year": 2003,
+        "first_free_font": "Aboriginal Sans",
+        "notes": "Unified Canadian Aboriginal Syllabics covers multiple languages"
+      },
+      {
+        "code": "Cher",
+        "name": "Cherokee",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "digital_age_start": 2001,
+        "years_behind_latin": 17,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Plantagenet Cherokee",
+        "first_scalable_year": 2001,
+        "first_free_font": "FreeSans Cherokee",
+        "notes": "Cherokee Nation invested in language preservation"
+      },
+      {
+        "code": "Taml",
+        "name": "Tamil",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1999,
+        "years_behind_latin": 15,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2012,
+        "years_waiting_for_google": 2,
+        "first_scalable_font": "Latha",
+        "first_scalable_year": 1999,
+        "first_free_font": "Lohit Tamil",
+        "notes": "Tamil script encoding was contentious, delayed standardization"
+      },
+      {
+        "code": "Telu",
+        "name": "Telugu",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1999,
+        "years_behind_latin": 15,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2012,
+        "years_waiting_for_google": 2,
+        "first_scalable_font": "Gautami",
+        "first_scalable_year": 1999,
+        "first_free_font": "Lohit Telugu",
+        "notes": "Telugu has most complex character combinations of Indic scripts"
+      },
+      {
+        "code": "Geor",
+        "name": "Georgian",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1998,
+        "years_behind_latin": 14,
+        "first_free_font_year": 2005,
+        "years_waiting_for_free": 9,
+        "first_google_fonts_year": 2015,
+        "years_waiting_for_google": 5,
+        "first_scalable_font": "Georgian Academy",
+        "first_scalable_year": 1998,
+        "first_free_font": "DejaVu Georgian",
+        "notes": "Has three script variants (Mkhedruli, Asomtavruli, Nuskhuri)"
+      },
+      {
+        "code": "Ethi",
+        "name": "Ethiopic",
+        "unicode_version": "3.0",
+        "unicode_year": 1999,
+        "digital_age_start": 1997,
+        "years_behind_latin": 13,
+        "first_free_font_year": 2003,
+        "years_waiting_for_free": 7,
+        "first_google_fonts_year": 2015,
+        "years_waiting_for_google": 5,
+        "first_scalable_font": "GF Zemen",
+        "first_scalable_year": 1997,
+        "first_free_font": "Abyssinica SIL",
+        "notes": "Unicode support came 8 years after Latin"
+      },
+      {
+        "code": "Armn",
+        "name": "Armenian",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1997,
+        "years_behind_latin": 13,
+        "first_free_font_year": 2005,
+        "years_waiting_for_free": 9,
+        "first_google_fonts_year": 2015,
+        "years_waiting_for_google": 5,
+        "first_scalable_font": "ArmNet",
+        "first_scalable_year": 1997,
+        "first_free_font": "DejaVu Armenian",
+        "notes": "Small speaking population delayed commercial interest"
+      },
+      {
+        "code": "Tibt",
+        "name": "Tibetan",
+        "unicode_version": "2.0",
+        "unicode_year": 1996,
+        "digital_age_start": 1997,
+        "years_behind_latin": 13,
+        "first_free_font_year": 1997,
+        "years_waiting_for_free": 1,
+        "first_google_fonts_year": 2016,
+        "years_waiting_for_google": 6,
+        "first_scalable_font": "Tibetan Machine Uni",
+        "first_scalable_year": 1997,
+        "first_free_font": "Tibetan Machine Uni",
+        "notes": "Tibetan & Himalayan Digital Library pioneered preservation"
+      },
+      {
+        "code": "Beng",
+        "name": "Bengali (Bangla)",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1995,
+        "years_behind_latin": 11,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2012,
+        "years_waiting_for_google": 2,
+        "first_scalable_font": "SutonnyMJ",
+        "first_scalable_year": 1995,
+        "first_free_font": "Lohit Bengali",
+        "notes": "Complex conjuncts made digital rendering difficult"
+      },
+      {
+        "code": "Thai",
+        "name": "Thai",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1992,
+        "years_behind_latin": 8,
+        "first_free_font_year": 2003,
+        "years_waiting_for_free": 7,
+        "first_google_fonts_year": 2012,
+        "years_waiting_for_google": 2,
+        "first_scalable_font": "Cordia",
+        "first_scalable_year": 1992,
+        "first_free_font": "Garuda",
+        "notes": "Thai Linux Working Group created essential free fonts"
+      },
+      {
+        "code": "Kore",
+        "name": "Korean",
+        "unicode_version": "1.1",
+        "unicode_year": 1993,
+        "digital_age_start": 1992,
+        "years_behind_latin": 8,
+        "first_free_font_year": 2003,
+        "years_waiting_for_free": 7,
+        "first_google_fonts_year": 2014,
+        "years_waiting_for_google": 4,
+        "first_scalable_font": "Batang/Gulim",
+        "first_scalable_year": 1992,
+        "first_free_font": "UnBatang",
+        "notes": "Hangul's 11,172 syllable blocks make font creation massive"
+      },
+      {
+        "code": "Hant",
+        "name": "Chinese Traditional",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1992,
+        "years_behind_latin": 8,
+        "first_free_font_year": 2005,
+        "years_waiting_for_free": 9,
+        "first_google_fonts_year": 2014,
+        "years_waiting_for_google": 4,
+        "first_scalable_font": "MingLiU",
+        "first_scalable_year": 1992,
+        "first_free_font": "AR PL fonts",
+        "notes": "More complex characters than Simplified Chinese"
+      },
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1991,
+        "years_behind_latin": 7,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2011,
+        "years_waiting_for_google": 1,
+        "first_scalable_font": "Raghu",
+        "first_scalable_year": 1991,
+        "first_free_font": "Lohit Devanagari",
+        "notes": "CDAC India pioneered Indic digital typography"
+      },
+      {
+        "code": "Hans",
+        "name": "Chinese Simplified",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1991,
+        "years_behind_latin": 7,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2014,
+        "years_waiting_for_google": 4,
+        "first_scalable_font": "SimSun",
+        "first_scalable_year": 1991,
+        "first_free_font": "WenQuanYi",
+        "notes": "70,000+ characters make CJK font creation enormous undertaking"
+      },
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1990,
+        "years_behind_latin": 6,
+        "first_free_font_year": 2003,
+        "years_waiting_for_free": 7,
+        "first_google_fonts_year": 2010,
+        "years_waiting_for_google": 0,
+        "first_scalable_font": "ParaType fonts",
+        "first_scalable_year": 1990,
+        "first_free_font": "PT Sans",
+        "notes": "ParaType (Russia) pioneered Cyrillic digital type"
+      },
+      {
+        "code": "Hebr",
+        "name": "Hebrew",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1990,
+        "years_behind_latin": 6,
+        "first_free_font_year": 2005,
+        "years_waiting_for_free": 9,
+        "first_google_fonts_year": 2011,
+        "years_waiting_for_google": 1,
+        "first_scalable_font": "Hadassah",
+        "first_scalable_year": 1990,
+        "first_free_font": "Ezra SIL",
+        "notes": "Strong Israeli tech sector supported development"
+      },
+      {
+        "code": "Grek",
+        "name": "Greek",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1989,
+        "years_behind_latin": 5,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2010,
+        "years_waiting_for_google": 0,
+        "first_scalable_font": "GFS Didot",
+        "first_scalable_year": 1989,
+        "first_free_font": "GFS fonts",
+        "notes": "Greek Font Society preserved typographic heritage"
+      },
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1989,
+        "years_behind_latin": 5,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2011,
+        "years_waiting_for_google": 1,
+        "first_scalable_font": "Arabic Typesetting",
+        "first_scalable_year": 1989,
+        "first_free_font": "Scheherazade",
+        "notes": "Complex shaping requirements delayed quality fonts"
+      },
+      {
+        "code": "Jpan",
+        "name": "Japanese",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1989,
+        "years_behind_latin": 5,
+        "first_free_font_year": 2002,
+        "years_waiting_for_free": 6,
+        "first_google_fonts_year": 2014,
+        "years_waiting_for_google": 4,
+        "first_scalable_font": "Morisawa fonts",
+        "first_scalable_year": 1989,
+        "first_free_font": "Kochi",
+        "notes": "High commercial font market; free fonts came late"
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1984,
+        "years_behind_latin": 0,
+        "first_free_font_year": 1996,
+        "years_waiting_for_free": 0,
+        "first_google_fonts_year": 2010,
+        "years_waiting_for_google": 0,
+        "first_scalable_font": "Times (PostScript)",
+        "first_scalable_year": 1984,
+        "first_free_font": "Bitstream Vera",
+        "notes": "The reference point - all other scripts measured against Latin"
+      }
+    ],
+    "summary": {
+      "scripts_analyzed": 28,
+      "longest_wait": {
+        "code": "Adlm",
+        "name": "Adlam",
+        "unicode_version": "9.0",
+        "unicode_year": 2016,
+        "digital_age_start": 2016,
+        "years_behind_latin": 32,
+        "first_free_font_year": 2016,
+        "years_waiting_for_free": 20,
+        "first_google_fonts_year": 2019,
+        "years_waiting_for_google": 9,
+        "first_scalable_font": "Noto Sans Adlam",
+        "first_scalable_year": 2016,
+        "first_free_font": "Noto Sans Adlam",
+        "notes": "Script created in 1989 by teenagers in Guinea"
+      },
+      "earliest_adopter": {
+        "code": "Grek",
+        "name": "Greek",
+        "unicode_version": "1.0",
+        "unicode_year": 1991,
+        "digital_age_start": 1989,
+        "years_behind_latin": 5,
+        "first_free_font_year": 2004,
+        "years_waiting_for_free": 8,
+        "first_google_fonts_year": 2010,
+        "years_waiting_for_google": 0,
+        "first_scalable_font": "GFS Didot",
+        "first_scalable_year": 1989,
+        "first_free_font": "GFS fonts",
+        "notes": "Greek Font Society preserved typographic heritage"
+      },
+      "average_years_behind": 13.321428571428571
+    }
+  },
+  "web_usage": {
+    "most_used_families": [
+      {
+        "family": "Roboto",
+        "usage_pct": 13.2,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Grek"
+        ]
+      },
+      {
+        "family": "Open Sans",
+        "usage_pct": 9.8,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Grek"
+        ]
+      },
+      {
+        "family": "Lato",
+        "usage_pct": 5.4,
+        "scripts": [
+          "Latn"
+        ]
+      },
+      {
+        "family": "Montserrat",
+        "usage_pct": 4.9,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Viet"
+        ]
+      },
+      {
+        "family": "Poppins",
+        "usage_pct": 4.7,
+        "scripts": [
+          "Latn",
+          "Deva"
+        ]
+      },
+      {
+        "family": "Noto Sans",
+        "usage_pct": 3.8,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Grek"
+        ]
+      },
+      {
+        "family": "Source Sans Pro",
+        "usage_pct": 3.2,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Grek"
+        ]
+      },
+      {
+        "family": "Oswald",
+        "usage_pct": 2.9,
+        "scripts": [
+          "Latn",
+          "Cyrl"
+        ]
+      },
+      {
+        "family": "Raleway",
+        "usage_pct": 2.8,
+        "scripts": [
+          "Latn"
+        ]
+      },
+      {
+        "family": "Inter",
+        "usage_pct": 2.5,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Grek"
+        ]
+      },
+      {
+        "family": "Nunito",
+        "usage_pct": 2.3,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Viet"
+        ]
+      },
+      {
+        "family": "Rubik",
+        "usage_pct": 2.1,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Hebr"
+        ]
+      },
+      {
+        "family": "PT Sans",
+        "usage_pct": 1.9,
+        "scripts": [
+          "Latn",
+          "Cyrl"
+        ]
+      },
+      {
+        "family": "Merriweather",
+        "usage_pct": 1.8,
+        "scripts": [
+          "Latn",
+          "Cyrl"
+        ]
+      },
+      {
+        "family": "Playfair Display",
+        "usage_pct": 1.7,
+        "scripts": [
+          "Latn",
+          "Cyrl"
+        ]
+      },
+      {
+        "family": "Ubuntu",
+        "usage_pct": 1.5,
+        "scripts": [
+          "Latn",
+          "Cyrl",
+          "Grek"
+        ]
+      },
+      {
+        "family": "Mukta",
+        "usage_pct": 1.4,
+        "scripts": [
+          "Latn",
+          "Deva"
+        ]
+      },
+      {
+        "family": "Work Sans",
+        "usage_pct": 1.3,
+        "scripts": [
+          "Latn",
+          "Viet"
+        ]
+      },
+      {
+        "family": "Noto Sans JP",
+        "usage_pct": 1.2,
+        "scripts": [
+          "Jpan",
+          "Latn"
+        ]
+      },
+      {
+        "family": "DM Sans",
+        "usage_pct": 1.1,
+        "scripts": [
+          "Latn"
+        ]
+      }
+    ],
+    "script_web_usage": {
+      "Latn": 98.5,
+      "Cyrl": 12.3,
+      "Grek": 3.2,
+      "Arab": 2.8,
+      "Hebr": 1.9,
+      "Jpan": 4.5,
+      "Kore": 2.1,
+      "Hans": 3.8,
+      "Hant": 1.5,
+      "Deva": 1.4,
+      "Thai": 0.9,
+      "Beng": 0.3,
+      "Taml": 0.2,
+      "Telu": 0.2,
+      "Viet": 0.8
+    },
+    "sources": [
+      "HTTP Archive Web Almanac 2022 - Fonts chapter",
+      "https://almanac.httparchive.org/en/2022/fonts",
+      "Google Fonts Analytics (internal estimates)",
+      "W3Techs web technology surveys"
+    ],
+    "insight": "Top 20 fonts represent 68% of all web font usage. ALL are Latin-first."
+  },
+  "font_sizes": {
+    "cjk_scripts": {
+      "avg_mb": 3.4,
+      "note": "Japanese, Korean, Chinese require 3-5MB fonts"
+    },
+    "indic_scripts": {
+      "avg_kb": 280,
+      "note": "Devanagari, Bengali, Tamil average 200-400KB"
+    },
+    "arabic_script": {
+      "avg_kb": 199,
+      "note": "Arabic fonts average ~200KB"
+    },
+    "latin_only": {
+      "avg_kb": 47,
+      "note": "Latin-only fonts average ~50KB"
+    },
+    "cyrillic": {
+      "avg_kb": 229,
+      "note": "Cyrillic extension adds ~180KB"
+    },
+    "thai": {
+      "avg_kb": 113,
+      "note": "Thai fonts average ~100KB"
+    },
+    "size_ratio": {
+      "cjk_vs_latin": 72,
+      "indic_vs_latin": 6,
+      "arabic_vs_latin": 4
+    }
+  },
+  "variable_fonts": {
+    "latin": {
+      "count": 429,
+      "fonts": [
+        "Advent Pro",
+        "Afacad",
+        "Afacad Flux",
+        "Alan Sans",
+        "Albert Sans",
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Aleo"
+      ],
+      "full_list_count": 429
+    },
+    "latin-ext": {
+      "count": 415,
+      "fonts": [
+        "Advent Pro",
+        "Afacad",
+        "Afacad Flux",
+        "Alan Sans",
+        "Albert Sans",
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Aleo"
+      ],
+      "full_list_count": 415
+    },
+    "vietnamese": {
+      "count": 227,
+      "fonts": [
+        "Afacad",
+        "Afacad Flux",
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Aleo",
+        "Alexandria",
+        "Alumni Sans",
+        "Alumni Sans SC"
+      ],
+      "full_list_count": 227
+    },
+    "cyrillic": {
+      "count": 110,
+      "fonts": [
+        "Advent Pro",
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Alumni Sans",
+        "Alumni Sans SC",
+        "Arimo",
+        "Bitter",
+        "Brygada 1918"
+      ],
+      "full_list_count": 110
+    },
+    "cyrillic-ext": {
+      "count": 109,
+      "fonts": [
+        "Advent Pro",
+        "Afacad",
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Alumni Sans",
+        "Alumni Sans SC",
+        "Arimo",
+        "Bitter"
+      ],
+      "full_list_count": 109
+    },
+    "greek": {
+      "count": 64,
+      "fonts": [
+        "Advent Pro",
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Ancizar Sans",
+        "Ancizar Serif",
+        "Arima",
+        "Arimo",
+        "Brygada 1918"
+      ],
+      "full_list_count": 64
+    },
+    "greek-ext": {
+      "count": 37,
+      "fonts": [
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC",
+        "Arima",
+        "Arimo",
+        "Chiron Hei HK",
+        "EB Garamond",
+        "Fira Sans",
+        "Fira Sans Condensed"
+      ],
+      "full_list_count": 37
+    },
+    "math": {
+      "count": 27,
+      "fonts": [
+        "Afacad",
+        "Bodoni Moda",
+        "Bodoni Moda SC",
+        "Google Sans Code",
+        "Google Sans Flex",
+        "Heebo",
+        "Kalnia",
+        "Kumbh Sans",
+        "Lora",
+        "Noto Kufi Arabic"
+      ],
+      "full_list_count": 27
+    },
+    "symbols": {
+      "count": 23,
+      "fonts": [
+        "Afacad",
+        "Bodoni Moda",
+        "Bodoni Moda SC",
+        "Google Sans",
+        "Google Sans Code",
+        "Google Sans Flex",
+        "Heebo",
+        "Kumbh Sans",
+        "Lora",
+        "Noto Kufi Arabic"
+      ],
+      "full_list_count": 23
+    },
+    "thai": {
+      "count": 22,
+      "fonts": [
+        "Anuphan",
+        "Bai Jamjuree",
+        "Chakra Petch",
+        "Fahkwang",
+        "Google Sans",
+        "IBM Plex Sans Thai",
+        "IBM Plex Sans Thai Looped",
+        "K2D",
+        "Kanit",
+        "KoHo"
+      ],
+      "full_list_count": 22
+    },
+    "arabic": {
+      "count": 20,
+      "fonts": [
+        "Alexandria",
+        "Beiruti",
+        "Cairo",
+        "Cairo Play",
+        "Cascadia Code",
+        "Cascadia Mono",
+        "Changa",
+        "Fustat",
+        "Handjet",
+        "IBM Plex Sans Arabic"
+      ],
+      "full_list_count": 20
+    },
+    "hebrew": {
+      "count": 17,
+      "fonts": [
+        "Arimo",
+        "Assistant",
+        "Cascadia Code",
+        "Cascadia Mono",
+        "Frank Ruhl Libre",
+        "Google Sans",
+        "Handjet",
+        "Heebo",
+        "IBM Plex Sans Hebrew",
+        "M PLUS 1p"
+      ],
+      "full_list_count": 17
+    },
+    "devanagari": {
+      "count": 15,
+      "fonts": [
+        "Anek Devanagari",
+        "Biryani",
+        "Google Sans",
+        "IBM Plex Sans Devanagari",
+        "Inknut Antiqua",
+        "Martel",
+        "Martel Sans",
+        "Matangi",
+        "Mukta",
+        "Noto Sans"
+      ],
+      "full_list_count": 15
+    },
+    "japanese": {
+      "count": 9,
+      "fonts": [
+        "IBM Plex Sans JP",
+        "M PLUS 1",
+        "M PLUS 1 Code",
+        "M PLUS 1p",
+        "M PLUS 2",
+        "M PLUS Rounded 1c",
+        "Murecho",
+        "Noto Sans JP",
+        "Noto Serif JP"
+      ],
+      "full_list_count": 9
+    },
+    "tamil": {
+      "count": 7,
+      "fonts": [
+        "Anek Tamil",
+        "Arima",
+        "Catamaran",
+        "Google Sans",
+        "Mukta Malar",
+        "Noto Sans Tamil",
+        "Noto Serif Tamil"
+      ],
+      "full_list_count": 7
+    },
+    "symbols2": {
+      "count": 7,
+      "fonts": [
+        "Cascadia Code",
+        "Cascadia Mono",
+        "Chiron Hei HK",
+        "Chiron Sung HK",
+        "Google Sans Code",
+        "Intel One Mono",
+        "Lilex"
+      ],
+      "full_list_count": 7
+    },
+    "gujarati": {
+      "count": 6,
+      "fonts": [
+        "Anek Gujarati",
+        "Google Sans",
+        "Mukta Vaani",
+        "Noto Sans Gujarati",
+        "Noto Serif Gujarati",
+        "Rasa"
+      ],
+      "full_list_count": 6
+    },
+    "khmer": {
+      "count": 6,
+      "fonts": [
+        "Google Sans",
+        "Hanuman",
+        "Kantumruy Pro",
+        "Nokora",
+        "Noto Sans Khmer",
+        "Noto Serif Khmer"
+      ],
+      "full_list_count": 6
+    },
+    "gurmukhi": {
+      "count": 5,
+      "fonts": [
+        "Anek Gurmukhi",
+        "Google Sans",
+        "Mukta Mahee",
+        "Noto Sans Gurmukhi",
+        "Noto Serif Gurmukhi"
+      ],
+      "full_list_count": 5
+    },
+    "malayalam": {
+      "count": 5,
+      "fonts": [
+        "Anek Malayalam",
+        "Arima",
+        "Google Sans",
+        "Noto Sans Malayalam",
+        "Noto Serif Malayalam"
+      ],
+      "full_list_count": 5
+    },
+    "sinhala": {
+      "count": 5,
+      "fonts": [
+        "Gemunu Libre",
+        "Google Sans",
+        "Noto Sans Sinhala",
+        "Noto Serif Sinhala",
+        "Stick No Bills"
+      ],
+      "full_list_count": 5
+    },
+    "canadian-aboriginal": {
+      "count": 5,
+      "fonts": [
+        "Google Sans",
+        "Google Sans Code",
+        "Google Sans Flex",
+        "Noto Sans Canadian Aboriginal",
+        "Radio Canada"
+      ],
+      "full_list_count": 5
+    },
+    "syriac": {
+      "count": 5,
+      "fonts": [
+        "Google Sans Code",
+        "Google Sans Flex",
+        "Noto Sans Syriac",
+        "Noto Sans Syriac Eastern",
+        "Noto Sans Syriac Western"
+      ],
+      "full_list_count": 5
+    },
+    "korean": {
+      "count": 5,
+      "fonts": [
+        "Gothic A1",
+        "Hahmlet",
+        "IBM Plex Sans KR",
+        "Noto Sans KR",
+        "Noto Serif KR"
+      ],
+      "full_list_count": 5
+    },
+    "emoji": {
+      "count": 5,
+      "fonts": [
+        "Playpen Sans",
+        "Playpen Sans Arabic",
+        "Playpen Sans Deva",
+        "Playpen Sans Hebrew",
+        "Playpen Sans Thai"
+      ],
+      "full_list_count": 5
+    },
+    "bengali": {
+      "count": 4,
+      "fonts": [
+        "Anek Bangla",
+        "Google Sans",
+        "Noto Sans Bengali",
+        "Noto Serif Bengali"
+      ],
+      "full_list_count": 4
+    },
+    "telugu": {
+      "count": 4,
+      "fonts": [
+        "Anek Telugu",
+        "Google Sans",
+        "Noto Sans Telugu",
+        "Noto Serif Telugu"
+      ],
+      "full_list_count": 4
+    },
+    "chinese-traditional": {
+      "count": 4,
+      "fonts": [
+        "Chiron GoRound TC",
+        "Chiron Hei HK",
+        "Noto Sans TC",
+        "Noto Serif TC"
+      ],
+      "full_list_count": 4
+    },
+    "cherokee": {
+      "count": 4,
+      "fonts": [
+        "Genos",
+        "Google Sans Code",
+        "Google Sans Flex",
+        "Noto Sans Cherokee"
+      ],
+      "full_list_count": 4
+    },
+    "armenian": {
+      "count": 4,
+      "fonts": [
+        "Google Sans",
+        "Handjet",
+        "Noto Sans Armenian",
+        "Noto Serif Armenian"
+      ],
+      "full_list_count": 4
+    },
+    "ethiopic": {
+      "count": 4,
+      "fonts": [
+        "Google Sans",
+        "Menbere",
+        "Noto Sans Ethiopic",
+        "Noto Serif Ethiopic"
+      ],
+      "full_list_count": 4
+    },
+    "lao": {
+      "count": 4,
+      "fonts": [
+        "Google Sans",
+        "Noto Sans Lao",
+        "Noto Sans Lao Looped",
+        "Noto Serif Lao"
+      ],
+      "full_list_count": 4
+    },
+    "kannada": {
+      "count": 3,
+      "fonts": [
+        "Anek Kannada",
+        "Noto Sans Kannada",
+        "Noto Serif Kannada"
+      ],
+      "full_list_count": 3
+    },
+    "oriya": {
+      "count": 3,
+      "fonts": [
+        "Anek Odia",
+        "Google Sans",
+        "Noto Sans Oriya"
+      ],
+      "full_list_count": 3
+    },
+    "chinese-hongkong": {
+      "count": 3,
+      "fonts": [
+        "Chiron Sung HK",
+        "Noto Sans HK",
+        "Noto Serif HK"
+      ],
+      "full_list_count": 3
+    },
+    "georgian": {
+      "count": 3,
+      "fonts": [
+        "Google Sans",
+        "Noto Sans Georgian",
+        "Noto Serif Georgian"
+      ],
+      "full_list_count": 3
+    },
+    "braille": {
+      "count": 2,
+      "fonts": [
+        "Cascadia Code",
+        "Cascadia Mono"
+      ],
+      "full_list_count": 2
+    },
+    "myanmar": {
+      "count": 2,
+      "fonts": [
+        "Noto Sans Myanmar",
+        "Noto Serif Myanmar"
+      ],
+      "full_list_count": 2
+    },
+    "chinese-simplified": {
+      "count": 2,
+      "fonts": [
+        "Noto Sans SC",
+        "Noto Serif SC"
+      ],
+      "full_list_count": 2
+    },
+    "new-tai-lue": {
+      "count": 1,
+      "fonts": [
+        "Dai Banna SIL"
+      ],
+      "full_list_count": 1
+    },
+    "adlam": {
+      "count": 1,
+      "fonts": [
+        "Google Sans Code"
+      ],
+      "full_list_count": 1
+    },
+    "old-permic": {
+      "count": 1,
+      "fonts": [
+        "Google Sans Code"
+      ],
+      "full_list_count": 1
+    },
+    "nushu": {
+      "count": 1,
+      "fonts": [
+        "Google Sans Flex"
+      ],
+      "full_list_count": 1
+    },
+    "tifinagh": {
+      "count": 1,
+      "fonts": [
+        "Google Sans Flex"
+      ],
+      "full_list_count": 1
+    },
+    "lisu": {
+      "count": 1,
+      "fonts": [
+        "Lisu Bosa"
+      ],
+      "full_list_count": 1
+    },
+    "cham": {
+      "count": 1,
+      "fonts": [
+        "Noto Sans Cham"
+      ],
+      "full_list_count": 1
+    },
+    "meetei-mayek": {
+      "count": 1,
+      "fonts": [
+        "Noto Sans Meetei Mayek"
+      ],
+      "full_list_count": 1
+    },
+    "thaana": {
+      "count": 1,
+      "fonts": [
+        "Noto Sans Thaana"
+      ],
+      "full_list_count": 1
+    },
+    "kana-extended": {
+      "count": 1,
+      "fonts": [
+        "Noto Serif Hentaigana"
+      ],
+      "full_list_count": 1
+    },
+    "tibetan": {
+      "count": 1,
+      "fonts": [
+        "Noto Serif Tibetan"
+      ],
+      "full_list_count": 1
+    }
+  },
+  "quick_wins_summary": {
+    "variable_fonts": {
+      "latin": 429,
+      "arabic": 20,
+      "devanagari": 15,
+      "japanese": 9,
+      "ratio_latin_to_arabic": 21.45
+    },
+    "file_sizes": {
+      "cjk_avg_mb": 3.4,
+      "latin_avg_kb": 47,
+      "cjk_is_X_times_larger": 72,
+      "implication": "A Japanese web page loads 72x more font data than English"
+    },
+    "web_usage": {
+      "top_font": "Roboto (13.2%)",
+      "top_20_cover": "68% of all web font usage",
+      "all_top_20_are": "Latin-first fonts",
+      "non_latin_in_top_20": 0
+    },
+    "digital_age": {
+      "first_digital_script": "Latin (1984)",
+      "latest_script": "Adlam (2016 - 32 years behind)",
+      "average_wait": "13.3 years behind Latin"
+    }
   }
 }

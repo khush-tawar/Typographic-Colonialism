@@ -1,0 +1,194 @@
+{
+  "most_used_families": [
+    {
+      "family": "Roboto",
+      "usage_pct": 13.2,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Grek"
+      ]
+    },
+    {
+      "family": "Open Sans",
+      "usage_pct": 9.8,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Grek"
+      ]
+    },
+    {
+      "family": "Lato",
+      "usage_pct": 5.4,
+      "scripts": [
+        "Latn"
+      ]
+    },
+    {
+      "family": "Montserrat",
+      "usage_pct": 4.9,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Viet"
+      ]
+    },
+    {
+      "family": "Poppins",
+      "usage_pct": 4.7,
+      "scripts": [
+        "Latn",
+        "Deva"
+      ]
+    },
+    {
+      "family": "Noto Sans",
+      "usage_pct": 3.8,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Grek"
+      ]
+    },
+    {
+      "family": "Source Sans Pro",
+      "usage_pct": 3.2,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Grek"
+      ]
+    },
+    {
+      "family": "Oswald",
+      "usage_pct": 2.9,
+      "scripts": [
+        "Latn",
+        "Cyrl"
+      ]
+    },
+    {
+      "family": "Raleway",
+      "usage_pct": 2.8,
+      "scripts": [
+        "Latn"
+      ]
+    },
+    {
+      "family": "Inter",
+      "usage_pct": 2.5,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Grek"
+      ]
+    },
+    {
+      "family": "Nunito",
+      "usage_pct": 2.3,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Viet"
+      ]
+    },
+    {
+      "family": "Rubik",
+      "usage_pct": 2.1,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Hebr"
+      ]
+    },
+    {
+      "family": "PT Sans",
+      "usage_pct": 1.9,
+      "scripts": [
+        "Latn",
+        "Cyrl"
+      ]
+    },
+    {
+      "family": "Merriweather",
+      "usage_pct": 1.8,
+      "scripts": [
+        "Latn",
+        "Cyrl"
+      ]
+    },
+    {
+      "family": "Playfair Display",
+      "usage_pct": 1.7,
+      "scripts": [
+        "Latn",
+        "Cyrl"
+      ]
+    },
+    {
+      "family": "Ubuntu",
+      "usage_pct": 1.5,
+      "scripts": [
+        "Latn",
+        "Cyrl",
+        "Grek"
+      ]
+    },
+    {
+      "family": "Mukta",
+      "usage_pct": 1.4,
+      "scripts": [
+        "Latn",
+        "Deva"
+      ]
+    },
+    {
+      "family": "Work Sans",
+      "usage_pct": 1.3,
+      "scripts": [
+        "Latn",
+        "Viet"
+      ]
+    },
+    {
+      "family": "Noto Sans JP",
+      "usage_pct": 1.2,
+      "scripts": [
+        "Jpan",
+        "Latn"
+      ]
+    },
+    {
+      "family": "DM Sans",
+      "usage_pct": 1.1,
+      "scripts": [
+        "Latn"
+      ]
+    }
+  ],
+  "script_web_usage": {
+    "Latn": 98.5,
+    "Cyrl": 12.3,
+    "Grek": 3.2,
+    "Arab": 2.8,
+    "Hebr": 1.9,
+    "Jpan": 4.5,
+    "Kore": 2.1,
+    "Hans": 3.8,
+    "Hant": 1.5,
+    "Deva": 1.4,
+    "Thai": 0.9,
+    "Beng": 0.3,
+    "Taml": 0.2,
+    "Telu": 0.2,
+    "Viet": 0.8
+  },
+  "sources": [
+    "HTTP Archive Web Almanac 2022 - Fonts chapter",
+    "https://almanac.httparchive.org/en/2022/fonts",
+    "Google Fonts Analytics (internal estimates)",
+    "W3Techs web technology surveys"
+  ],
+  "insight": "Top 20 fonts represent 68% of all web font usage. ALL are Latin-first."
+}

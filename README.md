@@ -320,27 +320,6 @@ LIMIT 500
 }
 ```
 
----
-
-## Visualization Ideas
-
-### 1. The Stream Collapses
-Show how font availability drops off a cliff when you move from Latin to other scripts.
-
-### 2. The Wait
-Dumbbell chart showing years between Unicode support and first font availability.
-
-### 3. The Weight Gap
-Heatmap showing font weight coverage (thin to black) across scripts.
-
-### 4. Speakers in Silence
-Area chart showing billions of people whose scripts have inadequate font support.
-
-### 5. Noto as Bridge
-Show Noto project's attempt to fill the gap.
-
----
-
 ## Building the Dataset
 
 ```bash
